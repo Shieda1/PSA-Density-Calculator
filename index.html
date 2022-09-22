@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PSA Density Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- radio -->
+  <input type="radio" id="PSAdensityRadio" name="variables" checked>
+  <label for="PSAdensityRadio">PSA density</label>
+
+  <input type="radio" id="lengthRadio" name="variables">
+  <label for="lengthRadio">Length</label>
+
+  <input type="radio" id="widthRadio" name="variables">
+  <label for="widthRadio">Width</label>
+
+  <input type="radio" id="heightRadio" name="variables">
+  <label for="heightRadio">Height</label>
+
+  <input type="radio" id="PSARadio" name="variables">
+  <label for="PSARadio">PSA</label><br><br>
+  <!-- end radio -->
+  
+  <label for="v1" id="variable1">Length</label>
+  <input type="number" id="v1"><br><br>
+  
+  <label for="v2" id="variable2">Width</label>
+  <input type="number" id="v2"><br><br>
+  
+  <label for="v3" id="variable3">Height</label>
+  <input type="number" id="v3"><br><br>
+  
+  <label for="v4" id="variable4">PSA</label>
+  <input type="number" id="v4"><br><br>
+
+  <button id="btn">compute</button>
+
+  <p id="result"></p>
+  <script src="app.js"></script>
+</body>
+</html>
